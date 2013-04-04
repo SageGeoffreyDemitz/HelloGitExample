@@ -10,7 +10,8 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Git!");
+            // this comment was created on the master branch
+            Console.WriteLine("Hello, Git!  It's fun!");
             Console.WriteLine("You've been modified!"); 
             Console.ReadKey(); 
         }
