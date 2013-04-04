@@ -26,6 +26,7 @@ namespace HelloGit
             {
                 case 0:
                     return "It's Thursday!!!";
+
                 case 1:
                     return "You will meet a tall dark stranger.";
                     
