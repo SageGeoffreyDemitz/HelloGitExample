@@ -21,9 +21,11 @@ namespace HelloGit
         private static  string GetFortune()
         {
             Random rnd = new Random();
-            int whichOne = rnd.Next(3);
+            int whichOne = rnd.Next(4);
             switch (whichOne)
             {
+                case 0:
+                    return "It's Thursday!!!";
                 case 1:
                     return "You will meet a tall dark stranger.";
                     
